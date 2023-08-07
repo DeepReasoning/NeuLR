@@ -2,7 +2,7 @@
 This is the content-neutral dataset of logical reasoning. It contains three reasoning types: deductive, inductive and abductive.
 
 If this paper proves beneficial to your research, kindly acknowledge it by citing the following reference:
-
+```
 @article{DBLP:journals/corr/abs-2306-09841,
   author       = {Fangzhi Xu and
                   Qika Lin and
@@ -17,3 +17,4 @@ If this paper proves beneficial to your research, kindly acknowledge it by citin
   eprinttype    = {arXiv},
   eprint       = {2306.09841}
 }
+```
