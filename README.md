@@ -125,7 +125,7 @@ Considering the current benchmarks may not provide neutral content for fair eval
 From the results, we have the following observations:
 > - First, few-shot prompting and chain-ofthought prompting can both boost the performances of LLMs in most cases. Overall, chain-of-thought helps most to the model accuracy.
 > - Second, among the zero-shot results of three LLMs, BARD achieves the best performances on NeuLR while ChatGPT ranks last. The differences of zero-shot settings are significant.
-> - Third, from the perspective of different reasoning settings, there exist huge differences in results compared with the previous findings. The performances among the reasoning settings are sorted as deductive > abductive > inductive.
+> - Third, from the perspective of different reasoning settings, there exist huge differences in results compared with the previous findings. The performances among the reasoning settings are sorted as ***deductive > abductive > inductive***.
 
 
 
