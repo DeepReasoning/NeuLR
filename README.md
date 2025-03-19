@@ -38,13 +38,84 @@ Considering the current benchmarks may not provide neutral content for fair eval
 
 
 
-|Dataset| Num.| Hop|  ||| ChatGPT|||BARD|| |
-|  :---:  | :---:  |:---:  |:---:  |:---:  |:---:  |:---:  |:---:  |:---:  |:---:  |:---:  |:---:  |
-|^|^|^|0-shot| 1-shot| COT|0-shot| 1-shot| COT|0-shot| 1-shot| COT|
-|NeuLR|3,000|1~5|50.93|59.17|67.90 |37.27|48.13|48.00|63.67|65.07|66.00|
-|- Deductive|1,000| 2|59.00|69.40|86.10|85.20|69.10|68.30|87.40|93.10|91.90|
-|- Inductive|1,000| 3|86.90|89.60|95.60|15.10|68.60|69.60|96.00|92.60|96.30|
-|- Abductive|1,000| 1~5|6.90|18.50|22.00|11.50|6.70|6.10|7.60|9.50|9.80|
+
+<table>
+    <tr>
+      <th rowspan="2" align="center">Dataset</th>
+      <th rowspan="2" align="center">Num.</th>
+      <th rowspan="2" align="center">#Hop</th>
+      <th colspan="3" align="center">text-davinci-003</th>
+      <th colspan="3" align="center">ChatGPT</th>
+      <th colspan="3" align="center">BARD</th>
+    </tr>
+    <tr>
+      <td align="center">0-shot</td>
+      <td align="center">1-shot</td>
+      <td align="center">COT</td>
+      <td align="center">0-shot</td>
+      <td align="center">1-shot</td>
+      <td align="center">COT</td>
+      <td align="center">0-shot</td>
+      <td align="center">1-shot</td>
+      <td align="center">COT</td>
+    </tr>
+  <tr>
+      <td align="center">NeuLR</td>
+    <td align="center">3,000</td>
+    <td align="center">1~5</td>
+    <td align="center">50.93</td>
+    <td align="center">59.17</td>
+    <td align="center">67.90</td>
+    <td align="center">37.27</td>
+    <td align="center">48.13</td>
+    <td align="center">48.00</td>
+    <td align="center">63.67</td>
+    <td align="center">65.07</td>
+    <td align="center">66.00</td>
+    </tr>
+  <tr>
+      <td align="center">Deductive</td>
+      <td align="center">1,000</td>
+      <td align="center">2</td>
+      <td align="center">59.00</td>
+      <td align="center">69.40</td>
+      <td align="center">86.10</td>
+      <td align="center">85.20</td>
+      <td align="center">69.10</td>
+      <td align="center">68.30</td>
+      <td align="center">87.40</td>
+      <td align="center">93.10</td>
+      <td align="center">91.90</td>
+    </tr>
+  <tr>
+      <td align="center">Inductive</td>
+      <td align="center">1,000</td>
+      <td align="center">3</td>
+      <td align="center">86.90</td>
+      <td align="center">89.60</td>
+      <td align="center">95.60</td>
+      <td align="center">15.10</td>
+      <td align="center">68.60</td>
+      <td align="center">69.60</td>
+      <td align="center">96.00</td>
+      <td align="center">92.60</td>
+      <td align="center">96.30</td>
+    </tr>
+    <tr>
+      <td align="center">Abductive</td>
+      <td align="center">1,000</td>
+      <td align="center">1~5</td>
+      <td align="center">6.90</td>
+      <td align="center">18.50</td>
+      <td align="center">22.00</td>
+      <td align="center">11.50</td>
+      <td align="center">6.70</td>
+      <td align="center">6.10</td>
+      <td align="center">7.60</td>
+      <td align="center">9.50</td>
+      <td align="center">9.80</td>
+    </tr>
+</table>
 
 
 
