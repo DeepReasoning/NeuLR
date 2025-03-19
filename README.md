@@ -36,14 +36,9 @@ In this paper, in-depth evaluations are conducted on logical reasoning tasks, di
 Considering the current benchmarks may not provide neutral content for fair evaluation, we propose the new dataset NeuLR to benchmark the neutral-content logical reasoning tasks. In column 1∼3 of the able, we provide the statistics of NeuLR. It contains 3 k samples in total, with ***1 k for deductive reasoning***, ***1 k for inductive reasoning*** and ***1k for abductive reasoning***.
 
 
-|  表头   | 表头  |
-|  ----  | ----  |
-| 单元格  | 单元格 |
-| 单元格  | 单元格 |
 
 
-
-|Dataset| Num.| Hop|text-davinci-003||| ChatGPT|||BARD|| |
+|Dataset| Num.| Hop|<td colspan="3">Merged Cell</td> text-davinci-003| ChatGPT|||BARD|| |
 |  --------  | ------  | ------  | ------  | ------  | ------  | ------  | ------  | ------  | ------  | ------  | ------  |
 |^|^|^|0-shot| 1-shot| COT|0-shot| 1-shot| COT|0-shot| 1-shot| COT|
 |NeuLR|3,000|1~5|50.93|59.17|67.90 |37.27|48.13|48.00|63.67|65.07|66.00|
