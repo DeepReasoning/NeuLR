@@ -38,7 +38,7 @@ Considering the current benchmarks may not provide neutral content for fair eval
 
 
 
-|Dataset| Num.| Hop|  | ChatGPT|||BARD|| |
+|Dataset| Num.| Hop|  ||| ChatGPT|||BARD|| |
 |  :---:  | :---:  |:---:  |:---:  |:---:  |:---:  |:---:  |:---:  |:---:  |:---:  |:---:  |:---:  |
 |^|^|^|0-shot| 1-shot| COT|0-shot| 1-shot| COT|0-shot| 1-shot| COT|
 |NeuLR|3,000|1~5|50.93|59.17|67.90 |37.27|48.13|48.00|63.67|65.07|66.00|
