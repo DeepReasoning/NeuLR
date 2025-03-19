@@ -16,7 +16,7 @@ Repo for "<a href="https://ieeexplore.ieee.org/document/10870148" target="_blank
 
 - [2025/02] 🔥🔥🔥 Logical reasoning evaluation study of LLMs is accepted by IEEE TKDE!
 
-## 📖 Intorduction
+## 📖 Introduction
 
 <p align="center">
     <img src="evaluation.png" alt="scaling" width="400">
