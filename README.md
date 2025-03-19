@@ -26,7 +26,7 @@ Third, to achieve a fair and pure benchmark for logical reasoning capability, we
 
 
 <p align="center">
-    <img src="./assets/scaling_law.png" alt="scaling" width="400">
+    <img src="evaluation.png" alt="scaling" width="400">
 </p>
 
 ## 🚀 Quick Start
