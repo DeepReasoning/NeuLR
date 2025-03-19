@@ -3,7 +3,6 @@ Are Large Language Models Really Good Logical Reasoners? A Comprehensive Evaluat
 </h1>
 
 <p align="center">
-  <a href="https://github.com/xufangzhi/phi-Decoding/"><b>[🌐 PyPi Package]</b></a> •
   <a href="https://ieeexplore.ieee.org/document/10870148"><b>[📜 Paper]</b></a> •
   <a href="https://github.com/DeepReasoning/NeuLR"><b>[🐱 GitHub]</b></a>
   
@@ -17,17 +16,19 @@ Repo for "<a href="https://ieeexplore.ieee.org/document/10870148" target="_blank
 
 - [2025/02] 🔥🔥🔥 Logical reasoning evaluation study of LLMs is accepted by IEEE TKDE!
 
-## 📖 Conclusion
-
-In this paper, in-depth evaluations are conducted on logical reasoning tasks, discussing whether LLMs are really good logical reasons
-First, the logical reasoning evaluations are organized from deductive, inductive, abductive and mixed-form views. We select fifteen logical reasoning datasets to evaluate on three representative LLMs (i.e., text-davinci-003, ChatGPT and BARD) under both zero-shot and few-shot settings.
-Second, this paper provides fine-level evaluations on four metrics, covering both objective and subjective views. For problematic cases, extensive error attributions are conducted from two dimensions, forming five error types. It uncovers the logical flaws of LLMs and we provide deep analysis on the results.
-Third, to achieve a fair and pure benchmark for logical reasoning capability, we propose a dataset with neutral content, covering deductive, inductive and abductive settings.
-
+## 📖 Intorduction
 
 <p align="center">
     <img src="evaluation.png" alt="scaling" width="400">
 </p>
+
+In this paper, in-depth evaluations are conducted on logical reasoning tasks, discussing whether LLMs are really good logical reasons
+> - First, the logical reasoning evaluations are organized from deductive, inductive, abductive and mixed-form views. We select fifteen logical reasoning datasets to evaluate on three representative LLMs (i.e., text-davinci-003, ChatGPT and BARD) under both zero-shot and few-shot settings.
+> - Second, this paper provides fine-level evaluations on four metrics, covering both objective and subjective views. For problematic cases, extensive error attributions are conducted from two dimensions, forming five error types. It uncovers the logical flaws of LLMs and we provide deep analysis on the results.
+> - Third, to achieve a fair and pure benchmark for logical reasoning capability, we propose a dataset with neutral content, covering deductive, inductive and abductive settings.
+
+
+
 
 ## 🚀 Quick Start
 
