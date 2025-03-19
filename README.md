@@ -22,7 +22,7 @@ Repo for "<a href="https://ieeexplore.ieee.org/document/10870148" target="_blank
     <img src="evaluation.png" alt="scaling" width="400">
 </p>
 
-In this paper, in-depth evaluations are conducted on logical reasoning tasks, discussing whether LLMs are really good logical reasons
+In this paper, in-depth evaluations are conducted on logical reasoning tasks, discussing whether LLMs are really good logical reasons.
 > - First, the logical reasoning evaluations are organized from deductive, inductive, abductive and mixed-form views. We select fifteen logical reasoning datasets to evaluate on three representative LLMs (i.e., text-davinci-003, ChatGPT and BARD) under both zero-shot and few-shot settings.
 > - Second, this paper provides fine-level evaluations on four metrics, covering both objective and subjective views. For problematic cases, extensive error attributions are conducted from two dimensions, forming five error types. It uncovers the logical flaws of LLMs and we provide deep analysis on the results.
 > - Third, to achieve a fair and pure benchmark for logical reasoning capability, we propose a dataset with neutral content, covering deductive, inductive and abductive settings.
@@ -30,29 +30,39 @@ In this paper, in-depth evaluations are conducted on logical reasoning tasks, di
 
 
 
-## 🚀 Quick Start
-
-To use the $\phi$-Decoding, we can try with the following command.
-
-Firstly, create the environment and install the requirements. This implementation is accelerated and supported by vllm.
-
-```bash
-# env
-conda create -n phi-decoding python==3.10
-conda activate phi-decoding
-pip install -r requirements.txt
-```
-
-Next, simply run the following command after the basic configuration:
-
-```bash
-python phi_decoding.py
-```
+## 🚀 NeuLR
 
 
-## 🔧 PyPi Package
+Considering the current benchmarks may not provide neutral content for fair evaluation, we propose the new dataset NeuLR to benchmark the neutral-content logical reasoning tasks. In column 1∼3 of the able, we provide the statistics of NeuLR. It contains 3 k samples in total, with ***1 k for deductive reasoning***, ***1 k for inductive reasoning*** and ***1k for abductive reasoning***.
 
-We are currently working on providing a PyPI package. Stay tuned !
+
+|  表头   | 表头  |
+|  ----  | ----  |
+| 单元格  | 单元格 |
+| 单元格  | 单元格 |
+
+
+
+|Dataset| Num.|#Hop||text-davinci-003| ChatGPT|BARD |
+0-shot 1-shot COT
+0-shot 1-shot COT
+|NeuLR|3,000|1~5|50.93|59.17|67.90 |37.27|48.13|48.00|63.67|65.07|66.00|
+|- Deductive|1,000| 2|59.00|69.40|86.10|85.20|69.10|68.30|87.40|93.10|91.90|
+|- Inductive|1,000| 3|86.90|89.60|95.60|15.10|68.60|69.60|96.00|92.60|96.30|
+|- Abductive|1,000| 1~5|6.90|18.50|22.00|11.50|6.70|6.10|7.60|9.50|9.80|
+
+
+
+
+
+
+From the results, we have the following observations:
+> - First, few-shot prompting and chain-ofthought prompting can both boost the performances of LLMs in most cases. Overall, chain-of-thought helps most to the model accuracy.
+> - Second, among the zero-shot results of three LLMs, BARD achieves the best performances on NeuLR while ChatGPT ranks last. The differences of zero-shot settings are significant.
+> - Third, from the perspective of different reasoning settings, there exist huge differences in results compared with the previous findings. The performances among the reasoning settings are sorted as deductive > abductive > inductive.
+
+
+
 
 
 ## Citation
