@@ -43,9 +43,8 @@ Considering the current benchmarks may not provide neutral content for fair eval
 
 
 
-|Dataset| Num.|#Hop||text-davinci-003| ChatGPT|BARD |
-0-shot 1-shot COT
-0-shot 1-shot COT
+|Dataset| Num.|#Hop|text-davinci-003||| ChatGPT|||BARD|| |
+||||0-shot| 1-shot| COT|0-shot| 1-shot| COT|0-shot| 1-shot| COT|
 |NeuLR|3,000|1~5|50.93|59.17|67.90 |37.27|48.13|48.00|63.67|65.07|66.00|
 |- Deductive|1,000| 2|59.00|69.40|86.10|85.20|69.10|68.30|87.40|93.10|91.90|
 |- Inductive|1,000| 3|86.90|89.60|95.60|15.10|68.60|69.60|96.00|92.60|96.30|
