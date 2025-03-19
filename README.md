@@ -44,7 +44,7 @@ Considering the current benchmarks may not provide neutral content for fair eval
 
 
 |Dataset| Num.|#Hop|text-davinci-003||| ChatGPT|||BARD|| |
-||||0-shot| 1-shot| COT|0-shot| 1-shot| COT|0-shot| 1-shot| COT|
+|^|^|^|0-shot| 1-shot| COT|0-shot| 1-shot| COT|0-shot| 1-shot| COT|
 |NeuLR|3,000|1~5|50.93|59.17|67.90 |37.27|48.13|48.00|63.67|65.07|66.00|
 |- Deductive|1,000| 2|59.00|69.40|86.10|85.20|69.10|68.30|87.40|93.10|91.90|
 |- Inductive|1,000| 3|86.90|89.60|95.60|15.10|68.60|69.60|96.00|92.60|96.30|
@@ -82,22 +82,3 @@ If you find it helpful, please kindly cite the paper.
 }
 ```
 
-
-
-# NeuLR
-This is the content-neutral dataset of logical reasoning. It contains three reasoning types: deductive, inductive and abductive.
-
-If this paper proves beneficial to your research, kindly acknowledge it by citing the following reference:
-```
-@article{DBLP:journals/corr/abs-2306-09841,
-  author       = {Fangzhi Xu and
-                  Qika Lin and
-                  Jiawei Han and
-                  Tianzhe Zhao and
-                  Jun Liu and
-                  Erik Cambria},
-  title        = {Are Large Language Models Really Good Logical Reasoners? {A} Comprehensive Evaluation and Beyond},
-  journal      = {IEEE Transactions on Knowledge and Data Engineering},
-  year         = {2025}
-}
-```
