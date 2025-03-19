@@ -33,7 +33,7 @@ In this paper, in-depth evaluations are conducted on logical reasoning tasks, di
 ## 🚀 NeuLR
 
 
-Considering the current benchmarks may not provide neutral content for fair evaluation, we propose the new dataset NeuLR to benchmark the neutral-content logical reasoning tasks. In column 1∼3 of the able, we provide the statistics of NeuLR. It contains 3 k samples in total, with ***1 k for deductive reasoning***, ***1 k for inductive reasoning*** and ***1k for abductive reasoning***.
+Considering the current benchmarks may not provide neutral content for fair evaluation, we propose the new dataset ***NeuLR*** to benchmark the neutral-content logical reasoning tasks. In column 1∼3 of the able, we provide the statistics of NeuLR. It contains 3 k samples in total, with ***1 k for deductive reasoning***, ***1 k for inductive reasoning*** and ***1k for abductive reasoning***.
 
 
 
