@@ -145,6 +145,9 @@ If you find it helpful, please kindly cite the paper.
                   Erik Cambria},
   title        = {Are Large Language Models Really Good Logical Reasoners? {A} Comprehensive Evaluation and Beyond},
   journal      = {IEEE Transactions on Knowledge and Data Engineering},
+  volume       = {37},
+  number       = {4},
+  pages        = {1620--1634},
   year         = {2025}
 }
 ```
